@@ -1,3 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
+    color: white;
+    font-size: 1.9rem
+}
+
+.D {
+    text-shadow: 0px 0px 10px gold, 0px 0px 10px gold, 0px 0px 10px gold;
+}
+
+.R {
+    text-shadow: 0px 0px 10px silver, 0px 0px 10px silver, 0px 0px 10px silver;
+}
+
+.S {
+    text-shadow: 0px 0px 10px rgb(255, 136, 0), 0px 0px 10px rgb(255, 136, 0), 0px 0px 10px rgb(255, 136, 0);
 }
